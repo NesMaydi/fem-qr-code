@@ -1,0 +1,71 @@
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  overflow: hidden;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#card {
+  margin: 85px auto;
+  width: 320px;
+  height: 497px;
+  background: #ffffff;
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#image-qr-code {
+  width: 288px;
+  height: 288px;
+  margin: 16px auto;
+  border-radius: 10px;
+}
+
+#txt-container {
+  width: 288px;
+  height: 129px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  color: #1f314f;
+  margin: 0;
+}
+
+p {
+  height: 57px;
+  width: 256px;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.1875px;
+  margin: 16px auto 40px auto;
+  color: #7d889e;
+}
+
+.attribution {
+ width: 300px;
+    margin: auto;
+  font-size: 10px;
+}
+
+
+@media screen and (min-width: 1440px) {
+    
+
+    #card{
+      margin: 151px auto 152px auto;
+    }
+
+}
